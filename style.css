@@ -80,9 +80,13 @@ nav li {
     flex: 1;
 }
 
-nav li a:hover {
+nav li button:hover {
     background-color: fuchsia;
 
+}
+
+#home:hover {
+    background-color: brown;
 }
 
 nav a {

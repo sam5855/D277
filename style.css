@@ -47,6 +47,7 @@ footer {
 
 .colorado-text {
     display: grid;
+    text-align: justify;
     grid-column: 1;
 }
 
@@ -103,4 +104,17 @@ aside {
 
 table {
     border: 2px solid black;
+}
+
+.home-form {
+    display: block;
+    border: 2px solid peru;
+    position: relative;
+
+}
+
+.img {
+    display: block;
+    float: left;
+
 }

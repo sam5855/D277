@@ -46,7 +46,6 @@ footer {
 }
 
 .colorado-text {
-    display: grid;
     text-align: justify;
     grid-column: 1;
 }
@@ -114,7 +113,6 @@ table {
 }
 
 .img {
-    display: block;
     float: left;
-
+    margin: 5px;
 }

@@ -99,13 +99,22 @@ nav a {
 
 aside {
     background-color: bisque;
+    text-align: left;
+    width: 200px;
 }
 
 table {
     border: 2px solid black;
     position: relative;
-    left: 100px;
 }
+
+.attractions {
+    display: inline;
+    position: absolute;
+    bottom: 250px;
+    left: 550px;
+}
+
 
 .home-form {
     display: block;

@@ -103,6 +103,8 @@ aside {
 
 table {
     border: 2px solid black;
+    position: relative;
+    left: 100px;
 }
 
 .home-form {

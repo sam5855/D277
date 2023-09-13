@@ -112,8 +112,17 @@ aside {
 }
 
 table {
+    display: table;
     border: 2px solid black;
     position: relative;
+}
+
+.form-class {
+    display: table-row;
+}
+
+.form-label {
+    display: table-cell;
 }
 
 .attractions {
@@ -138,12 +147,30 @@ table {
 
 .home-form {
     display: block;
-    border: 2px solid peru;
     position: relative;
+    margin-bottom: 40px;
+    width: fit-content;
 
+}
+
+.question-box {
+    display: block;
+    position: relative;
+    margin-top: 90px;
+    margin-bottom: 100px;
 }
 
 .img {
     float: left;
     margin: 5px;
+}
+
+.form-submit {
+    float: left;
+    margin-top: 8px;
+}
+
+.text-submit {
+    display: block;
+    position: relative;
 }

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="validate.js" defer></script>
 </head>
 
 
@@ -31,8 +32,8 @@
                 <div class="main-content">
                     <section>
                         <h2>Welcome to Colorado!</h2>
-                        <div class="img"><img src="./assets/colorado.jpg" alt="colorado hills" width="100px"
-                                height="100px"></div>
+                        <div class="img"><img src="./assets/colorado.jpg" alt="colorado hills" width="150px"
+                                height="150px"></div>
                         <p class="colorado-text">Colorado is a state
                             situated in the western
                             region of the United
@@ -111,7 +112,8 @@
                 </div>
             </div>
             <div class="home-form">
-                <form action="https://example.com/apply">
+                <form action="https://example.com/apply" id="emailForm">
+                    <p class="Form-title">Sign up for our newsletter!</p>
                     <p class="form-class">
                         <label for="first" class="form-label">First Name:</label>
                         <input type="text" name="first" id="first" placeholder="First Name">
@@ -122,24 +124,29 @@
                     </p>
                     <p class="form-class">
                         <label for="email" class="form-label">Email:</label>
-                        <input type="text" name="email" id="email" placeholder="Email">
+                        <input type="text" name="email" id="firstEmail" placeholder="Email">
                     </p>
                     <p class="form-class">
                         <label for="email" class="form-label"> Confirm Email:</label>
-                        <input type="text" name="confirm-email" id="confirm-email" placeholder="Email">
+                        <input type="text" name="secondEmail" id="secondEmail" placeholder="Email">
                     </p>
-                    <input type="submit" class="form-submit">
+                    <input type="submit" class="form-submit" id="submit">
                 </form>
             </div>
             <div class="question-box">
                 <form>
                     <textarea placeholder="Ask us a question!"></textarea>
-                    <input type="submit" value="Submit" class="text-submit">
+                    <input type="submit" value="Submit" class="text-">
                 </form>
             </div>
         </main>
     </section>
-    <footer>This is footer</footer>
+
+    <footer>
+        <div class="footer-class">Thanks for visiting our website. We hope to see you in the great state of
+            Colorado!</div>
+    </footer>
+
 
 
 

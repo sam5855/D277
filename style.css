@@ -2,34 +2,41 @@ body {
     margin: 0 auto;
     font-family: "sans-serrif";
     background-position: center;
-    color: red;
+
 }
 
 header {
     display: grid;
-    background-color: aqua;
+    background-color: darkolivegreen;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 footer {
-    margin-top: auto;
-    background-color: cadetblue;
+    text-align: center;
+    background-color: darkgray;
     height: 150px;
 }
 
+.footer-class {
+    padding-top: 75px;
+}
+
+.form-title {
+    text-align: center;
+}
+
 .header {
-    border: 2px solid black;
+    border-bottom: 2px solid black;
 }
 
 .main-container {
     display: grid;
     grid-template-columns: 5;
-    border: solid green;
-    margin-bottom: 10px;
+    margin-bottom: 100px;
 }
 
 .main-content {
     display: grid;
-    border: solid red;
     grid-column: 1 / 5;
     margin-left: 30px;
     width: 900px;
@@ -37,7 +44,6 @@ footer {
 
 
 .aside-content {
-    border: solid blueviolet;
     background-color: bisque;
     width: auto;
     grid-column: 5;
@@ -69,9 +75,9 @@ table {
 nav {
     height: 50px;
     background-color: bisque;
+    border-bottom: 2px solid black;
     display: flex;
     margin-bottom: 10px;
-    border: 2px solid red;
 }
 
 nav ul {
@@ -89,12 +95,8 @@ nav li {
 }
 
 nav li button:hover {
-    background-color: fuchsia;
+    background-color: darkgoldenrod;
 
-}
-
-#home:hover {
-    background-color: brown;
 }
 
 nav a {
@@ -116,6 +118,8 @@ table {
     border: 2px solid black;
     position: relative;
 }
+
+
 
 .form-class {
     display: table-row;
